@@ -1,0 +1,96 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.header{
+	background: url(Background.png) no-repeat;
+	
+}
+.wrapper{
+	max-width:940px;
+	margin:0 auto;
+}
+.nav{
+	display:flex;
+	justify-content:space-between;
+}
+.logo{
+	display:flex;
+	align-items:center;
+	font-size: 30px;
+	color:#36b3cd;
+}
+.logo img{
+	height:50px;
+	width:50px;
+}
+.menu{
+	display:flex;
+}
+.menu ul{
+	display:flex;
+	list-style-type:none;
+	font-size: 13px;
+	align-items:center;
+}
+.menu li{
+	margin-left:25px;
+	border:1px solid #ccc;
+	border-radius:10px;
+	font-size: 15px;
+}
+.menu ul #active{
+	color:#1b355e;
+}
+.menu a{
+	text-decoration:none;
+	color:#fefefe;
+	margin: 10px;
+}
+.contanier{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 130px;
+}
+.login {
+	display:flex;
+	justify-content: center;
+	background: url(6.png) no-repeat;
+	width: 380px;
+	height: 337px;
+	margin: 0 auto;
+}
+.forminput{
+	margin-top: 40px;
+}
+.inp{
+	padding: 0.5em;
+	font-size: 0.875em;
+	border:1px solid #ccc;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+h2{
+	text-align: center;
+	margin-top: 75px;
+	color:white;
+}
+.sub{
+	margin-bottom: 10px;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+}
+.sub input{
+	font-size:1.2em;
+	background: #91c46c;
+	height: 40px;
+	width: 100px;
+	color:white;
+	border:1px solid #91c46c;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+
