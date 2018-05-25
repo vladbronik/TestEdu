@@ -27,6 +27,7 @@ if (isset($_POST['submit']) && !empty($_POST['login'])
 		$errorList=validateRegData($filter_data);
 		if(!$errorList){
 			$success=insert_data($filter_data);
+			header('Location:home');
 		}
 	}
 }
